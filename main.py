@@ -3,7 +3,7 @@
 import requests
 
 #get ip,location,city,hostname,region,country,postal and timezone of the machine where the code is run
-data = requests.get("https://ipinfo.io")
+data = requests.get("https://ipinfo.io/")
 msg = data.text
 
 
