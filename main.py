@@ -6,7 +6,7 @@ import requests
 data = requests.get("https://ipinfo.io")
 msg = data.text
 
-import requests
+
 
 
 to = 'gowtham758550@gmail.com'
