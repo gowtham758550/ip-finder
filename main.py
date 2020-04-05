@@ -7,7 +7,7 @@ data = requests.get("https://ipinfo.io")
 msg = data.text
 
 sender = "python3testing755@gmail.com"
-password = "asdfghjkl1234567890"
+password = 
 reciever = "gowtham758550@gmail.com"
 
 server = smtplib.SMTP('smtp.gmail.com',587)
