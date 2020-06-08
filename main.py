@@ -1,5 +1,3 @@
-#import library requests
-
 import requests
 
 #get ip,location,city,hostname,region,country,postal and timezone of the machine where the code is run
