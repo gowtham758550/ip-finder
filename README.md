@@ -7,7 +7,7 @@ to your mail address
 ## ***How it works?***
 * It sends the request to the website 'ipinfo.com' and get the 
 response as the message to my mail address.
-*Please make sure to change the mail id otherwise I got your
+* Please make sure to change the mail id otherwise I got your
 victim's ip etc...,
 
 ## ***What happened when you execute this?***
