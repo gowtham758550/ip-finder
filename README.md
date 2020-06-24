@@ -12,9 +12,12 @@ victim's ip etc...,
 
 ## ***What happened when you execute this?***
 * You will get a mail like this
-* And this ip is note mine. Some one execute this code without
+* And this ip is not mine. Some one execute this code without
 changing the default mail address in the code😅. So please beware of it.
 ![](https://github.com/gowtham758550/ip-finder/blob/master/Demo/Screenshot_20200620-221209~2.png)
+
+## ***Note***
+* Only for educational purpose 😂
 
 ## ***Find me***
 * [Linkedin](https://www.linkedin.com/in/gowtham-s-516433182) 
