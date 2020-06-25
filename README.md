@@ -1,5 +1,9 @@
 # ip-finder
 
+<p align="center">
+  <img src="https://img.shields.io/badge/license-MIT-blue.svg">
+</p>
+
 ## ***What is this?***
 * Simple python file that sends victim ip,host name,location etc.., 
 to your mail address
