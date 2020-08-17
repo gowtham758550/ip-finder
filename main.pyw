@@ -1,8 +1,9 @@
-from os import name, system
+from os import system
+import platform
 try:
 	import requests
 except ImportError:
-	if name == "nt":
+	if platform.system().lower() == "windows":
 		x = system("py -m pip install requests")
 		import requests
 	else:
