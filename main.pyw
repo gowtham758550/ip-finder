@@ -21,7 +21,7 @@ to = 'gowtham758550@gmail.com'
 subject = 'check it'
 message = msg
 
-user_agent = 'Mozilla/5.0 (Windows NT 10.0;rv:78.0) Gecko/20100101 Firefox/78.0'
+user_agent = 'Mozilla/5.0 (Windows NT 11.0;rv:102.5) Gecko/20100101 Firefox/102.5'
 sess = requests.Session()
 email_req = sess.post('http://anonymouse.org/cgi-bin/anon-email.cgi', headers={
 	'Host': 'anonymouse.org',
